@@ -181,4 +181,4 @@ __kernel void hyperspatial_construct_image(
     
     // Write to image
     write_imagef(output, (int2)(x, y), (float4)(col.x, col.y, col.z, 1.0f));
-}
+}   
